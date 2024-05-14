@@ -5,8 +5,8 @@ export const Fisical: React.FC = () => {
   return (
     <article>
       <div className={css.grid}>
-        <img src={fisicalImg} alt="" />
         <div>
+          <h1>Deficiência Física</h1>
           <p>
             A pessoa com deficiência física pode ter alguma limitação para se
             movimentar e poderá usar algum equipamento de apoio, tais como:
@@ -35,6 +35,7 @@ export const Fisical: React.FC = () => {
             </li>
           </ul>
         </div>
+        <img src={fisicalImg} alt="" />
       </div>
     </article>
   );

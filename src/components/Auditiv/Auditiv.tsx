@@ -5,8 +5,8 @@ export const Auditiv: React.FC = () => {
   return (
     <article>
       <div className={css.grid}>
-        <img src={auditImg} alt="" />
         <div>
+          <h1>Deficiência auditiva</h1>
           <p>
             As pessoas com deficiência auditiva, ou seja, pessoas que têm alguma
             limitação para ouvir e escutar, podem ter diferentes graus de perda
@@ -32,6 +32,7 @@ export const Auditiv: React.FC = () => {
             </li>
           </ul>
         </div>
+        <img src={auditImg} alt="" />
       </div>
     </article>
   );

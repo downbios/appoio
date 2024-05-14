@@ -7,6 +7,7 @@ export const Visual: React.FC = () => {
       <div className={css.grid}>
         <div>
           <p>
+            <h1>Deficiência Visual</h1>
             A pessoa com deficiência visual é aquela que tem alguma dificuldade
             para enxergar, podendo ter baixa visão ou uma perda da visão, como a
             cegueira. Na maioria dos casos, a pessoa com deficiência visual
